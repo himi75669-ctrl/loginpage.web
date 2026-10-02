@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+fullstack-login/backend/node_modules/
+package-lock.json
+
+# Environment variables
+.env
+fullstack-login/backend/.env
+
+# SQLite database files
+database/*.db
+database/*.db-journal
+fullstack-login/database/*.db
+fullstack-login/database/*.db-journal
+*.db
+*.db-journal
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
